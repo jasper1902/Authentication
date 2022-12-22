@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blueviolet;
+  padding: 12px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 2px;
+  cursor: pointer;
+}
+
+.navbar input {
+  border-radius: 5px;
+  margin: 4px;
+  border: none;
+  padding: 2px;
+}
+
+.btnSm {
+  height: 25px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  color: white;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  margin: 4px;
+  border-radius: 50%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}

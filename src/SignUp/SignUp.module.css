@@ -1,0 +1,22 @@
+.signUp {
+  background-color: blueviolet;
+  width: 40%;
+  margin: auto;
+  margin-top: 25%;
+  padding: 12px;
+  text-align: center;
+  border-radius: 12px;
+  color: white;
+}
+
+.signUp form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signUp form * {
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  padding: 2px;
+}
